@@ -1,4 +1,4 @@
 FROM openjdk:8-jdk
 VOLUME /tmp 
-COPY target/AccesAppApiUsers-0.0.1-SNAPSHOT.jar AccesAppApiUsers.jar
+COPY target/team-demo.jar team-demo.jar
 ENTRYPOINT ["java","-jar","team-demo.jar"]
